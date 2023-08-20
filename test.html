@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sofa Shit</title>
+    <link rel="stylesheet" href="vuhoang.css"> <!-- nhớ đổi lại tên cho giống cái file css-->
+</head>
+
+<body>
+    <header>
+        <div class="user-login">
+            <input type="text" id="username" placeholder="Tên đăng nhập">
+            <input type="password" id="password" placeholder="Mật khẩu">
+            <button id="loginBtn">Đăng nhập</button>
+        </div>
+        <div class="logo">
+            <img src="/images/logo.png" alt="">
+            <h1><a href="#">Richfield Chair</a></h1>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Tìm kiếm">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="header-menu">
+            <div><a href="#">Bán chạy</a></div>
+            <div><a href="#">Khuyến mãi</a></div>
+            <script>
+                const bestSellingLink = document.querySelector('.header-menu > div:nth-child(1) > a');
+                const promotionsLink = document.querySelector('.header-menu > div:nth-child(2) > a');
+            
+                bestSellingLink.addEventListener('click', (event) => {
+                    event.preventDefault();
+                    // Thay đổi URL tới trang sản phẩm bán chạy
+                    window.location.href = 'bestselling.html'; // Thay đổi thành URL thích hợp
+                });
+            
+                promotionsLink.addEventListener('click', (event) => {
+                    event.preventDefault();
+                    // Thay đổi URL tới trang sản phẩm khuyến mãi
+                    window.location.href = 'promotions.html'; // Thay đổi thành URL thích hợp
+                });
+            </script>
+            <div>
+                <i class="fa-solid fa-phone"></i>
+                <div>
+                    <h1>Tư vấn hỗ trợ</h1>
+                    <h2>0969696969</h2>
+                </div>
+            </div>
+            <div>
+                <i class="fa-solid fa-user"></i>
+                <div>
+                    <h1>Xin chào</h1>
+                    <a href="#">Đăng nhập / Đăng kí</a>
+                </div>
+            </div>
+            <div><i class="fa-regular fa-heart"></i></div>
+            <div><i class="fa-solid fa-cart-shopping"></i></div>
+        </div>
+    </header>
+    <div class="menu">
+        <section class="left">
+            <h1>Danh mục sản phẩm</h1>
+            <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li>Chair</li>
+                <li>Dining chair</li>
+                <li>Glider chair</li>
+                <li>Office chair</li>
+                <li>Rocking chair</li>
+                <li>Sofa</li>
+            </ul>
+        </section>
+        <section class="right">
+            <img src="images/banner-sofa.png" alt="25">
+        </section>
+    </div>
+    <main>
+        <div class="product">
+            <h1>Sofa</h1>
+            <div class="items">
+                <div class="item">
+                    <img src="/images/taylor.jpg" alt="">
+                    <h2>Taylor</h2>
+                    <h3>15.000.000</h3>
+                </div>
+                <div class="item">
+                    <img src="/images/taylor.jpg" alt="">
+                    <h2>Taylor</h2>
+                    <h3>15.000.000</h3>
+                </div>
+                <div class="item">
+                    <img src="/images/taylor.jpg" alt="">
+                    <h2>Taylor</h2>
+                    <h3>15.000.000</h3>
+                </div>
+                <div class="item">
+                    <img src="/images/taylor.jpg" alt="">
+                    <h2>Taylor</h2>
+                    <h3>15.000.000</h3>
+                </div>
+                <div class="item">
+                    <img src="/images/taylor.jpg" alt="">
+                    <h2>Taylor</h2>
+                    <h3>15.000.000</h3>
+                </div>
+            </div>
+        </div>
+        <div class="product">
+            <h1>Sofa</h1>
+            <div class="items">
+                <div class="item">
+                    <img src="/images/taylor.jpg" alt="">
+                    <h2>Taylor</h2>
+                    <h3>15.000.000</h3>
+                </div>
+                <div class="item">
+                    <img src="/images/taylor.jpg" alt="">
+                    <h2>Taylor</h2>
+                    <h3>15.000.000</h3>
+                </div>
+                <div class="item">
+                    <img src="/images/taylor.jpg" alt="">
+                    <h2>Taylor</h2>
+                    <h3>15.000.000</h3>
+                </div>
+                <div class="item">
+                    <img src="/images/taylor.jpg" alt="">
+                    <h2>Taylor</h2>
+                    <h3>15.000.000</h3>
+                </div>
+                <div class="item">
+                    <img src="/images/taylor.jpg" alt="">
+                    <h2>Taylor</h2>
+                    <h3>15.000.000</h3>
+                </div>
+                <div class="item">
+                    <img src="/images/taylor.jpg" alt="">
+                    <h2>Taylor</h2>
+                    <h3>15.000.000</h3>
+                </div>
+                <div class="item">
+                    <img src="/images/taylor.jpg" alt="">
+                    <h2>Taylor</h2>
+                    <h3>15.000.000</h3>
+                </div>
+                <div class="item">
+                    <img src="/images/taylor.jpg" alt="">
+                    <h2>Taylor</h2>
+                    <h3>15.000.000</h3>
+                </div>
+                <div class="item">
+                    <img src="/images/taylor.jpg" alt="">
+                    <h2>Taylor</h2>
+                    <h3>15.000.000</h3>
+                </div>
+                <div class="item">
+                    <img src="/images/taylor.jpg" alt="">
+                    <h2>Taylor</h2>
+                    <h3>15.000.000</h3>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <img src="/images/logo.png" alt="">
+        </div>
+    </footer>
+    <div class="chat">
+        <i class="fa-solid fa-message"></i>
+    </div>
+    <script>
+        const loginBtn = document.getElementById('loginBtn');
+
+        loginBtn.addEventListener('click', () => {
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            // Thay thế điều kiện đăng nhập bằng mã phù hợp với ứng dụng của bạn.
+            if (username === 'yourUsername' && password === 'yourPassword') { //tài khoảng: yourUsername pass: yourPassword
+                // Đăng nhập thành công
+                alert('Đăng nhập thành công!');
+                // Thực hiện chuyển hướng về trang chủ hoặc URL mong muốn.
+                window.location.href = 'vuhoang.html'; // Thay đổi thành URL thích hợp
+            } else {
+                // Đăng nhập thất bại
+                alert('Tên đăng nhập hoặc mật khẩu không đúng.');
+            }
+        });
+    </script>
+</body>
+
+</html>
