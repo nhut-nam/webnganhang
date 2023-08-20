@@ -560,7 +560,7 @@ main{
 
 .services > .service:nth-child(1)::before{
     content: "";
-    background-image: url(/images/tpbank-tin-dung-1617098460018686317745.jpg);
+    background-image: url(images/tpbank-tin-dung-1617098460018686317745.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -574,7 +574,7 @@ main{
 
 .services > .service:nth-child(2)::before{
     content: "";
-    background-image: url(/images/tiet-kiem-tien-mua-nha-trong-5-nam-1200x900-2.jpg);
+    background-image: url(images/tiet-kiem-tien-mua-nha-trong-5-nam-1200x900-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -588,7 +588,7 @@ main{
 
 .services > .service:nth-child(3)::before{
     content: "";
-    background-image: url(/images/vayoto.jpg);
+    background-image: url(images/vayoto.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -602,7 +602,7 @@ main{
 
 .services > .service:nth-child(4)::before{
     content: "";
-    background-image: url(/images/antam.jpg);
+    background-image: url(images/antam.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -616,7 +616,7 @@ main{
 
 .services > .service:nth-child(5)::before{
     content: "";
-    background-image: url(/images/mobilebank.jpg);
+    background-image: url(images/mobilebank.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
